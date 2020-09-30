@@ -1,11 +1,14 @@
+//This is library section
 #include <stdio.h>
 #include <stdlib.h>
 
+//function declaration
 void sort(int * , int ,int );
 void merge(int * , int ,int ,int);
 void input(int * , int );
 void display(int * , int);
 
+//function defination
 void merge(int *arr , int start , int mid , int end)
 {
     int i , j,k;
@@ -69,6 +72,7 @@ void display(int *arr , int n)
         printf("%4d ",*(arr+i));
 }
 
+//Main function
 int main()
 {
     int n , *arr ,i;
